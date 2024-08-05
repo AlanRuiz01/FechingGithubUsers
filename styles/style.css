@@ -1,0 +1,52 @@
+
+body {
+    background-color: #252526;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+}
+ 
+#btn{
+    margin-top: 2rem;
+    font-family: inherit;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: #fff;
+}
+#btn:hover{  
+    cursor: pointer;
+    background-color: #d4d0d0aa;
+ 
+}
+
+#profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profile p,h2,a  {
+    color: #ffffff;
+}
+
+h1,label{
+    color: #ffffff;
+}
